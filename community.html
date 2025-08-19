@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>커뮤니티 | IndieHacker</title>
+  <style>
+    body { font-family: 'Noto Sans KR', sans-serif; background:#f9fafb; margin:0; }
+    header { background:#4f46e5; color:white; padding:1rem 2rem; }
+    .container { max-width:800px; margin:2rem auto; background:white; padding:2rem; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.1);}
+    .post { border-bottom:1px solid #eee; padding:1rem 0; }
+    .post:last-child { border-bottom:none; }
+    h2 { margin-bottom:1.5rem; }
+    input, button { padding:0.7rem; border-radius:8px; border:1px solid #ddd; }
+    button { background:#4f46e5; color:white; border:none; cursor:pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>커뮤니티</h1>
+  </header>
+  <div class="container">
+    <h2>최근 게시글</h2>
+    <div class="post"><strong>김OO:</strong> 첫 유료 고객을 어떻게 확보하셨나요?</div>
+    <div class="post"><strong>이OO:</strong> SEO 시작하기 좋은 툴 추천 부탁드려요.</div>
+    <div class="post"><strong>박OO:</strong> 노코드로 MVP 만들어본 경험 공유합니다!</div>
+
+    <h2>새 글 작성하기</h2>
+    <form>
+      <input type="text" placeholder="글 제목" style="width:100%; margin-bottom:0.5rem;"><br>
+      <input type="text" placeholder="내용을 입력하세요" style="width:100%; margin-bottom:0.5rem;"><br>
+      <button type="button">게시하기</button>
+    </form>
+  </div>
+</body>
+</html>

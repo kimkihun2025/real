@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>온보딩 | IndieHacker</title>
+  <style>
+    body { font-family: 'Noto Sans KR', sans-serif; background:#f9fafb; margin:0; padding:0; }
+    .container { max-width:500px; margin:5rem auto; background:#fff; padding:2rem; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.1);}
+    h2 { text-align:center; margin-bottom:1.5rem; }
+    label { font-weight:bold; display:block; margin-top:1rem; }
+    select, textarea { width:100%; padding:0.8rem; margin-top:0.5rem; border:1px solid #ddd; border-radius:8px; }
+    button { width:100%; margin-top:2rem; padding:1rem; background:#4f46e5; color:white; border:none; border-radius:8px; font-weight:bold; cursor:pointer; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>온보딩</h2>
+    <form action="dashboard.html" method="get">
+      <label>현재 비즈니스 단계</label>
+      <select required>
+        <option>아이디어 단계</option>
+        <option>초기 고객 확보</option>
+        <option>매출 발생</option>
+        <option>성장 단계</option>
+      </select>
+
+      <label>주요 목표</label>
+      <textarea rows="3" placeholder="예: 첫 10명 유료 고객 확보, 블로그 방문자 1,000명 달성"></textarea>
+
+      <button type="submit">내 대시보드로 이동</button>
+    </form>
+  </div>
+</body>
+</html>
